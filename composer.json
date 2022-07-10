@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "nesk/rialto": "^1.2.0",
+        "nesk/rialto": "dev-master",
         "psr/log": "^1.0",
         "vierbergenlars/php-semver": "^3.0.2"
     },
@@ -45,5 +45,11 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/emaerket/rialto.git"
+        }
+    ]
 }
